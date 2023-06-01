@@ -1,13 +1,12 @@
 .header{
- background-color: var(--black);   
  color: white;
 }
 
 .header_container{
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1rem 1.5rem;
 }
 
-/* .header_container-menu{
-
-} */
+.header_container-menu>*:hover{
+    cursor: pointer;
+}

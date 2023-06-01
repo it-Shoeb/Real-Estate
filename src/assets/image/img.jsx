@@ -1,0 +1,7 @@
+export {default as share} from './share.png'
+export {default as github} from './github.png'
+export {default as linkedin} from './linkedin.png'
+export {default as nstagram} from './nstagram.png'
+export {default as whatsapp} from './whatsapp.png'
+export {default as residence} from './residence-gb60ab7db8_1280.jpg'
+export {default as heroSectionTower} from './hero-section-tower.jpg'

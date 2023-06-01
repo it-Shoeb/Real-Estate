@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <section className="header">
-        <div className="FLEXCENTER PADDING INNERWIDTH header_container">
+        <div className="header_container FLEXCENTER PADDING INNERWIDTH">
           <img src={logo} alt="logo" width={"50px"} />
 
           <div className="header_container-menu FLEXCENTER">

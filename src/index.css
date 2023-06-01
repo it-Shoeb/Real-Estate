@@ -39,6 +39,13 @@ a{
   align-items: flex-start;
 }
 
+.FLEXCOLCENTER{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .PADDING{
   padding: 1.5rem;
 }
@@ -63,6 +70,22 @@ a{
 .BUTTON:hover{
   cursor: pointer;
   transform: scale(1.1);
+}
+
+/* text */
+
+.PRIMARYTEXT{
+  font-weight: bold;
+  color: #1f3e72;
+}
+
+.SECONDARY_TEXT{
+  color: rgb(140, 139, 139);
+  font-size: .9rem;
+}
+.ORANGETEXT{
+  color: orange;
+  font-size:.8rem;
 }
 
 /* Media Queries */
