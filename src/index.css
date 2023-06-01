@@ -1,0 +1,88 @@
+:root{
+  --primary:#1f3e72;
+  --secondry:rgba(255, 255, 255, 0.731);
+  /* --blue-gradient:linear-gradient(97.05deg #4066ff, #2949c6 100%); */
+  --blue-gradient:linear-gradient( #4066ff, #2949c6 100%);
+  /* --orange-gradient:linear-gradient(270deg #ffb978 0%, #ff922d 100%); */
+  --orange-gradient:linear-gradient(#ffb978 0%, #ff922d 100%);
+  --black:#0b0b0b;
+  --blue:#4066ff;
+  --light-blue:#eeeeff;
+  --shadow:0px 23px 21px -9px rgba(136,160,255,.25);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  scroll-behavior: smooth;
+  
+}
+
+a{
+  color: var(--secondry);
+  text-decoration: none;
+}
+
+.FLEXCENTER{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} 
+
+.FLEXCOLSTART {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.PADDING{
+  padding: 1.5rem;
+}
+
+.INNERWIDTH{
+  width: 100%;
+}
+
+/* buttons style */
+
+.BUTTON{
+  font-weight: 600;
+  padding: .6rem 1.4rem;
+  color: white;
+  background: var(--blue-gradient);
+  border: none;
+
+  border-radius: 4px;
+  transition: transform 300ms ease-in;
+}
+
+.BUTTON:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Media Queries */
+/* more than 1536px */
+@media (min-width:1536px){
+  .INNERWIDTH{
+    max-width: 1280px;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width:640px){
+  .PADDING{
+    padding: 4rem;
+  }
+}
+
+@media (min-width:1280px), (min-width:768px){
+  .PADDING{
+    padding: 2rem;
+  }
+}
+

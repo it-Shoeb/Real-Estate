@@ -1,0 +1,13 @@
+.header{
+ background-color: var(--black);   
+ color: white;
+}
+
+.header_container{
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+/* .header_container-menu{
+
+} */
